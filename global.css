@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+
+*,
+*::after,
+*::before {
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    
+    scroll-behavior: smooth;
+  
+}
+

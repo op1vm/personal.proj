@@ -1,0 +1,73 @@
+body {
+  background-color: #c9f0ff;
+  font-family: RocknRoll One, Arial;
+  color: #64a0b9;
+}
+
+h1,
+h2,
+h3,
+ul,
+ol,
+li {
+  list-style-position: inside;
+  text-align: center;
+  padding-left: 0;
+  margin: 5px;
+}
+
+p,
+em,
+figcaption {
+  color: #326479;
+  text-align: center;
+  font-size: 20px;
+  margin: 7px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  clip-path: polygon(
+    30% 0%,
+    70% 0%,
+    100% 18%,
+    100% 70%,
+    86% 100%,
+    15% 100%,
+    0% 70%,
+    0 19%
+  );
+}
+
+.tongue-cat__pic {
+  width: 350px;
+}
+
+.tongue-cat,
+.kitties,
+.shower {
+  background-image: url("img/background.png");
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  background-size: 400px;
+}
+
+ .header__logo {
+      font-size: 1.9rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      text-align: left;
+    }
+
+.header__menu {
+  display: flex;
+  gap: 30px; /* відстань між кнопками */
+}
+
+.header__menu a {
+  text-decoration: none;
+  color: #326479;
+}
